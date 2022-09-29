@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
 *{
 margin: 0;  
 padding: 0;
@@ -11,6 +13,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #efefef;
+    font-family: 'Roboto', sans-serif
 }
 
 .conteiner{
@@ -80,6 +83,7 @@ p{
     background:linear-gradient(150deg, #cf0672, #f73c99);
     color: #fff;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .button-hireme:hover{
@@ -94,7 +98,8 @@ hr{
 .social-buttons{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 86%;
+    margin-top: 20px;
 }
 
 .button-social{
@@ -108,4 +113,28 @@ button{
     height: 50px;
     border-radius: 50%;
     border: none;
+}
+
+.button-instagram{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    cursor: pointer;
+}
+
+.button-github{
+    background:linear-gradient(95deg, #000, #222);
+    cursor: pointer;
+}
+
+.button-linkedin{
+    background:linear-gradient(45deg, #0077b5, #000000, #313335, #86888a, #caccce, #00a0dc);
+    cursor: pointer;
+}
+
+.button-social.fa{
+font-size: 25px;
+}
+
+.seguidores{
+    color: #fff;
+    font-size: 18px;
 }
